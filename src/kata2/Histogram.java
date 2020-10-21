@@ -19,6 +19,6 @@ public class Histogram<T> {
         for (T i : data) {
            histogram.put(i, histogram.containsKey(i)? histogram.get(i)+1:1); 
         }
-        return histogram;
+        return histogram; 
     }
 }
